@@ -8,8 +8,8 @@ I am a 3rd year student. I am curious, attentive and full of enthusiasm and desi
 * HTML
 * JavaScript
 * C++
-* English B1
-Responsive website layout </b>
+* English B1 </p>
+Responsive website layout </p>
 Lots of labs
 ## Education ##
 * 3 course BSUIR 
