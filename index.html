@@ -2,30 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icons.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
   <title>CV</title>
-  <link rel="style.css" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Kaidak Daria</h1>
-  <img src="me.jpg" width="189" height="255" alt="Me">
-  <h2>Сontact</h2>
-  <b>GMail</b> darlykus@gmail.com<br>
-  <b>Discord</b> Dasha_Blake(@dashablake)<br>
-  <h2>About me</h2>
-  <p>I am a 3rd year student. I am curious, attentive and full of enthusiasm and desire to work in the Frontend Developer field. I have no work experience, but I am ready to learn new things and use the knowledge already acquired in the company.</p>
-  <h2>Skils</h2>
-  <ul>
-    <li>HTML</li>
-    <li>JavaScript</li>
-    <li>C++</li>
-    <li>English B1</li>
-  </ul>
-  Responsive website layout <br>
- Lots of labs<br>
- <h2>Education</h2>
-  <ul>
-    <li>3 course BSUIR </li>
-    <li>Cisco courses</li>
-  </ul>
+  <header class="header">
+    <!--Шапка: Contacts. Skils. About me. Edukation-->
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts||</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary||</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills||</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <!--Information-->
+    <div class="container main-container">
+      <section class="section" id="profile">
+        <div class="me">
+          <div class="im">
+            <img src="me.jpg" width="150" height="200" alt="Me">
+          </div>
+          <div class="title">
+            <div class="frontend">
+            <h1 class="section-title" >Kaidak Daria</h1>
+            <i>Front-end developer</i></div>
+            <h2 class="section-title">Contacts</h2>
+            <div class="text">
+            <b>GMail</b> darlykus@gmail.com<br>
+            <b>Discord</b> Dasha_Blake<br></div>
+          </div>
+        </div>        
+      </section>
+     
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>I am a 3rd year student. I am curious, attentive and full of enthusiasm and desire to work in the Frontend Developer field. I have no work experience, but I am ready to learn new things and use the knowledge already acquired in the company.</p>
+      </section>
+
+      <section class="section" id="skils">
+        <h2 class="section-title">Skils</h2>
+        <ul>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+          <li>English B1</li>
+        </ul>
+        Responsive website layout <br>
+        Lots of labs<br>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+          <li>3 course BSUIR </li>
+          <li>Cisco courses</li>
+        </ul>
+      </section>
+
+      <section class="section" id="english">
+        <h2 class="section-title">Language</h2>
+        <ul>
+          <li>English B1 </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  
+  
+ 
+  
+  
+ 
+  <footer class="footer">
+    <!--Logo-->
+    <div class="container">
+      
+      <span class="notes"> 2022 <a href="https://github.com/DashaBlake" class="github">DashaBlake</a></span> 
+      <a href="https://rs.school/js/" class="school"> <img src="https://rs.school/images/rs_school_js.svg" alt="rs.school" > </a>
+
+    </div>
+  </footer>
 </body>
 </html>
+
